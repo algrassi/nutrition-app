@@ -1,6 +1,4 @@
-# Fuel — Piano Nutrizione Triathlon
-
-App web PWA mobile-first con piano nutrizionale ponte (4-6 settimane) calibrato su atleta triathlon di 85 kg, 6 sessioni/settimana, deficit -400 kcal/die.
+# Fuel — Gestione Nutrizione + Allenamento
 
 ## Funzionalità
 
@@ -70,8 +68,3 @@ nutrition-app/
 ## Modificare il piano
 
 Tutti i contenuti (pasti, spesa, regole) sono in `data.js`. Modifica e ridistribuisci.
-
-## Disclaimer
-
-Questo piano è una guida-ponte temporanea generata con AI. Non sostituisce un nutrizionista. Sospendi e cerca parere medico se compaiono sintomi insoliti, calo peso eccessivo, fame ingestibile, peggioramento di sonno o performance.
-# nutrition-app
