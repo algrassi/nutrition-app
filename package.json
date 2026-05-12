@@ -2,5 +2,14 @@
   "dependencies": {
     "@tailwindcss/cli": "^4.3.0",
     "tailwindcss": "^4.3.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^3.0.0",
+    "concurrently": "^9.2.1"
+  },
+  "scripts": {
+    "css": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch",
+    "serve": "browser-sync start --server --files \"**/*.html, **/*.js, src/output.css\"",
+    "dev": "concurrently \"npm run css\" \"npm run serve\""
   }
 }
