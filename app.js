@@ -1,4 +1,12 @@
 // ============================================
+// SECURING APP WITH LOGIN/REGISTER FLOW
+// ============================================
+import { supabase } from './lib/supabase.js'
+
+const { data: { session } } = await supabase.auth.getSession()
+if (!session) window.location.href = '/auth/login.html'
+
+// ============================================
 // APP LOGIC
 // ============================================
 
